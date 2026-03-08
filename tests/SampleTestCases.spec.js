@@ -22,5 +22,5 @@ test("test case5",async({page})=>
 })
 test("test case6",async({page})=>
 {
-    console.log("This is my test case6");
+      expect(false).toBeTruthy();
 })
